@@ -1,0 +1,101 @@
+header {
+  position: relative;
+  background-color: #fff;
+  height: 12vh;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+  padding: 3px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+header img {
+  margin-top: 4px;
+  width: 120px;
+}
+header li {
+  display: inline-block;
+  margin-top: 20px;
+  color: #000000;
+}
+header .button {
+  position: absolute;
+  bottom: 10%;
+  left: 70%;
+  padding: 5px;
+  /* margin-bottom: 20px; */
+}
+header a {
+  margin-left: 30px;
+  transition: 0.5s;
+  font-weight: 500;
+}
+header a:hover {
+  color: #27ae60;
+}
+
+header span {
+  width: auto;
+  padding: 0px 6px;
+  background: #27ae60;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-right: 4px;
+  font-weight: 400;
+}
+header h4 {
+  font-weight: 500;
+  margin-right: 20px;
+}
+header .toggle {
+  display: none;
+}
+.btn1 {
+  background-color: #27ae60;
+  color: #fff;
+  padding: 7px 1px;
+
+  /* margin-bottom: 20px; */
+}
+.nav {
+  display: flex;
+  margin-bottom: 6px;
+}
+.flex {
+  display: flex;
+  /* padding: 49px; */
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+  header img {
+    margin-top: 9px;
+  }
+  header .button {
+    display: none;
+  }
+  header .nav .flex {
+    display: none;
+  }
+  header .toggle {
+    display: block;
+    margin-top: 6px;
+  }
+  header .small {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: #27ae60;
+    padding: 20px;
+  }
+  header li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  header a:hover {
+    color: #000000;
+  }
+}
