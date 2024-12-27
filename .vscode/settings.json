@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000",
+        "activityBar.background": "#390A82",
+        "titleBar.activeBackground": "#4F0EB7",
+        "titleBar.activeForeground": "#FCFBFF"
+    }
+}

@@ -41,7 +41,8 @@ const Login = ({toRegister}) => {
         <input className="input2" placeholder="Enter password..." type="password" />
       </div>
       <button className="button2">Login</button>
-      <p className="p" >Don't have an account? <strong className="strong" onClick={toRegister}>Register</strong></p>
+      <p className="p" >Don't have an account?
+        <strong className="strong" onClick={toRegister}>Register</strong></p>
     </div>
   );
   
@@ -61,7 +62,7 @@ const Register = ({toLogin}) => {
       <div className="input-container2">
         <input className="input2" placeholder="Enter password..."type="password"  />
       </div>
-      <button className="button" >Register</button>
+      <button className="button2" >Register</button>
       <p className="p">Already have an account? 
         <strong className="strong" onClick={toLogin}>Login</strong></p>
     </div>

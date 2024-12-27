@@ -66,23 +66,21 @@
   #27ae60 0px 3px 7px -3px; 
 
 }
-.h2,
-.p {
+.h2,.p {
   color: rgb(0, 0, 0);
   margin: 0.5rem;
 }
 .strong{
-  color: #27ae60
-}
-.strong {
+  color: #27ae60;
   cursor: pointer;
+
 }
 
 .title2 {
   text-align: start;
   padding: 0 1rem;
 }
-.button {
+.button2 {
   border-radius: 4rem;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;

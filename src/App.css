@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0;
@@ -37,11 +37,12 @@ button {
   cursor: pointer;
   font-weight: bold;
 }
-.hh{
-  color: #ffffff;
-}
+
 button i {
   margin-right: 5px;
+}
+.heading .hh{
+  color: #ffffff;
 }
 .heading {
   text-align: center;
@@ -112,7 +113,7 @@ img {
 }
 .btn3 {
   background: #37e818;
-  border-radius: 80px;
+  border-radius: 50px;
 }
 .btn4 {
   background-color: #000;
